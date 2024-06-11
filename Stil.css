@@ -1,0 +1,98 @@
+@charset "utf-8";
+@font-face {
+	font-family: AdrianaDujic;
+	src:url("AdrianaDujic.ttf");
+}
+.menu li{
+	display: inline;
+}
+.menu{
+	padding:60px; 
+	margin-left: auto; 
+	margin-right:auto;  
+	width: 600px;
+}
+.menu li{
+	background-color:darkred;
+			padding:40px;
+			border: 2px solid black;
+}
+.menu li:active {background-color:	darkred;}
+		
+	.menu li a {	color:black; 
+			font-family: "Adobe Garamond Pro Bold", Adobe Garamond Pro Bold; 
+			/*font-family: "Montserrat", Adobe Garamond Pro Bold; */
+			text-transform: uppercase;
+			}
+	.menu li a:link {text-decoration:none;}
+	.menu li a:hover {text-decoration:underline;}
+	
+	</style>
+	
+h1 {
+	font-family: AdrianaDujic;
+}
+h2{
+	color: black;
+}
+h3 {
+	color: rgba(107, 30, 30, 1);
+	font-size: 30px;
+	text-align: center;
+}
+
+.paragraf_1 {
+	color: black;
+	font-size: 25px;
+	background-color: rgba(156, 45, 45, 0.7);
+	line-height:40px;
+	width: 900px;
+	background-color: rgba(156, 45, 45, 0.7);
+	padding: 50px;	
+	list-style-position: center;
+}
+.p1 {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.pozadina{
+	background-image: url("crvenapozadina.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.o_meni{
+	color: white;
+}
+.paragraf_2{
+	color: white;
+	font-size: 25px;
+	background-color: rgba(43, 97, 130, 0.7);
+	line-height:40px;
+	width: 900px;
+	background-color: rgba(43, 97, 130, 0.7);
+	padding: 50px;	
+	list-style-position: center;
+}
+.blok1{
+	background-color: black;
+	line-height: 30px;
+	width: cover;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.blok2{
+	background-color: white;
+	font-size: 20px;
+	text-align: center;
+	color: darkred;
+}
+.blok3{
+	background-color: rgba(43, 97, 130, 0.7);
+}
+.vjezbe{
+	color: black;
+}
+
